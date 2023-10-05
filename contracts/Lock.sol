@@ -2,8 +2,7 @@
 pragma solidity ^0.8.9;
 
 
-// Author: @janedoe
-contract Lock {
+ contract Lock {
     uint public unlockTime;
     address payable public owner;
 
