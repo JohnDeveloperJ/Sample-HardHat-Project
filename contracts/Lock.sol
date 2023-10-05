@@ -1,8 +1,7 @@
 // SPDX-License-Identifier: UNLICENSED
 pragma solidity ^0.8.9;
 
-
- contract Lock {
+contract Lock {
     uint public unlockTime;
     address payable public owner;
 
